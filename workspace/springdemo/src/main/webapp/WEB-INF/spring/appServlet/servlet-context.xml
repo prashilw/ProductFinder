@@ -15,5 +15,12 @@
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
+			<!-- Configure Interceptor Mapping -->
+	<interceptors>
+		<interceptor>
+			<mapping path="/home" />
+			<beans:bean class="org.prashil.demo.mvc.interceptor.RequestProcessingTImeInterceptor"></beans:bean>
+		</interceptor>
+	</interceptors>
 
 </beans:beans>

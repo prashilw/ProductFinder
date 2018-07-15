@@ -1,0 +1,9 @@
+<Context>
+<Resource name="jdbc/defaultDB" 
+auth="Container"
+type="javax.sql.DataSource" 
+driverClassName="com.sap.db.jdbc.Driver"
+url="jdbc:sap://vadbfae.od.sap.biz:30044/"
+username="PRASHIL" 
+password="SapHana123" /> 
+</Context>
